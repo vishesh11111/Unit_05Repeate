@@ -1,0 +1,71 @@
+:root {
+    --board-background: none;
+    --border-color: rgb(115, 115, 247);
+    --border-thickness: 5px;
+}
+  
+.board{
+    width: 30vw;
+    height: 50%;
+    background-color: var(--board-background);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.input{
+    height: 33.33%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: 'Bellefair', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 4rem;
+}
+  
+.input-1{
+    border-right: 5px solid rgb(68, 68, 234);
+    border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-2{
+    border-right: 5px solid rgb(68, 68, 234);
+    border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-3{
+    border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-4{
+    /* border-right: var(--border-thickness) 
+      dashed var(--border-color);
+    border-bottom: var(--border-thickness) 
+      dashed var(--border-color); */
+      border-right: 5px solid rgb(68, 68, 234);
+      border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-5{
+    border-right: 5px solid rgb(68, 68, 234);
+    border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-6{
+    border-bottom: 5px solid rgb(68, 68, 234);
+}
+  
+.input-7{
+    border-right:5px solid rgb(68, 68, 234);
+}
+  
+.input-8{
+    border-right: 5px solid rgb(68, 68, 234);
+}
+.po{
+    color: white;
+}
