@@ -1,0 +1,13 @@
+.sortByRating{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    margin-bottom:2rem;
+}
+.sortByRating>button{
+    background:#72A02B;
+    border: none;
+    padding:0.7rem;
+    border-radius:0.5rem;
+    color:white;
+}
